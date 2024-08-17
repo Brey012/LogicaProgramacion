@@ -35,7 +35,7 @@ public class variables {
         // Tipos de datos
 
         float nota = 2.4f;
-        long bigNumber  = 12312312432l;
+        long bigNumber  = 12343434342l;
 
     }
 }
