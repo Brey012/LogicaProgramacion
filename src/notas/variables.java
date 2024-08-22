@@ -11,12 +11,12 @@ public class variables {
         num2 = 2;
 
         byte  edad = 127;
-        short mesada =  32767;
-        short ahorroMesada = mesada;
+        short mesasda =  32767;
+        short ahorroMesada = mesasda;
 
         // Casteo de variables
         int ahorro = (int) ahorroMesada;
-        ahorro = ahorroMesada + mesada;
+        ahorro = ahorroMesada + mesasda;
         System.out.println(ahorro);
 
         //Parsing de variables
@@ -35,7 +35,7 @@ public class variables {
         // Tipos de datos
 
         float nota = 2.4f;
-        long bigNumber  = 12343434342l;
+        long bigNumber  = 12312312432l;
 
     }
 }
