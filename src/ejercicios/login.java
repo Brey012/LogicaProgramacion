@@ -16,7 +16,7 @@ public class login {
         String emailInput = scanner.nextLine();
         System.out.println("Ingrese la contraseña");
         int inputKey = scanner.nextInt();
-        System.out.println("Ingrese su telefono");
+        System.out.println("Ingrese su teléfono");
         int inputPhone = scanner.nextInt();
 
         if (userMail.equals(emailInput) || phone == inputPhone && key == inputKey) {
@@ -24,5 +24,6 @@ public class login {
         } else {
             System.out.println("valide sus credenciales");
         }
+
     }
 }

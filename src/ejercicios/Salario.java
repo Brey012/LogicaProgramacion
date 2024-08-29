@@ -10,7 +10,7 @@ public class Salario {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Presione 1 para inizializar");
+        System.out.println("Presione 1 para inicializar");
         int init = scanner.nextInt();
 
         System.out.println("1. Crear un usuario" + " 2. Inicias sesión" +
@@ -19,9 +19,9 @@ public class Salario {
                 "5. Ver datos del usuario" +
                 "Salir");
 
-        int opc = scanner.nextInt();
 
         while (init != 0) {
+            int opc = scanner.nextInt();
             switch (opc) {
                 case 1:
                     System.out.println("Cree un usuario");
@@ -58,7 +58,19 @@ public class Salario {
                 case 4:
                     if (salarioNeto <= 1160000) {
                         System.out.println("Su categoria es A");
+                    } else if (salarioNeto <= 2000000) {
+                        System.out.println("Su categoria es B");
+                    } else if (salarioNeto >= 3000000) {
+                        System.out.println("Su categoria es C");
                     }
+                    break;
+                case 5:
+                    System.out.println("Nombre: " + newUser + "Salario neto: " + salarioNeto);
+                    break;
+                case 6:
+                    System.out.println("Salir");
+                    init = 0;
+                    break;
             }
         }
     }
