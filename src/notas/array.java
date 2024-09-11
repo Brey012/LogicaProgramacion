@@ -9,6 +9,5 @@ public class array {
 //            System.out.println("la edad " + (i+1) + " es: " + ages);
 //            i++;
 //        }
-
     }
 }
