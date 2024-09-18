@@ -58,7 +58,7 @@ public class salarioFunc {
     }
 
     private static void login(Scanner scanner) {
-        if (userName == null ||password == null ) {
+        if (userName == null || password == null ) {
             System.out.println("Primero debe crear un usuario.");
             return;
         }
